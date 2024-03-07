@@ -1,7 +1,10 @@
 # Angular Crash
+- This project uses a pseudo REST API [json server](https://www.npmjs.com/package/json-server) to handle data from a local db.json file
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  16.2.6.
 ## Development server
 - Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Development Backend
+- Run `npm run server` for a dev server. It will send the required data for the frontend using a pseudo REST API.
 ## Code scaffolding
 - Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 ## Build
